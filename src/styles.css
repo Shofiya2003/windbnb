@@ -1,0 +1,443 @@
+body{
+font-family: 'Mulish', sans-serif;
+
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 49px;
+    padding:0 96px;
+}
+
+.search-box{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    width: 295px;
+    height:42px;
+}
+.search-box *> input{
+    height: 100%;
+    border: 1px solid #F2F2F2;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    outline: none;
+}
+
+
+.city-name input{
+    width: 138px;
+    border-radius: 16px 0 0 16px;
+    
+}
+
+
+
+.guests input{
+    width:106px;
+    height: 100%;
+}
+
+.search-icon{
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EB5757;
+    height: 100%;
+}
+
+.search-icon input{
+    width: 53px;
+}
+
+.heading{
+    margin-top:99px;
+    padding:0 96px 0 96px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/* Heading */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-country{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    width: 199px;
+    height: 29px;
+    margin-bottom: 0;
+}
+
+.count{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0;
+    color: #4F4F4F;
+}
+
+/* Hotel */
+.hotel-image{
+    width: 395px;
+    height: 269px;
+    border-radius: 24px;
+}
+
+/* ListHotel */
+.list-hotel{
+    margin-top: 44px;
+    padding:0 96px 0 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.list-hotel > div{
+    margin-right: 40px;
+}
+
+.hotel-desc{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top:13px;
+}
+
+.super-host{
+    width: 100px;
+    height: 28px;
+    border: 1px solid #4F4F4F;
+box-sizing: border-box;
+border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+}
+
+.super-host p{
+    color: #4F4F4F;
+    
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.hotel-type p{
+    font-size: 14px;
+    font-weight: 500;
+    color:#828282
+}
+
+.hotel-type{
+    display: flex;
+    align-items: center;
+    
+    height: 28px;
+}
+
+.star-icon{
+    height: 28px;
+    display: flex;
+    align-items: center;
+    
+    font-size: 14px;
+}
+
+.star-icon span svg{
+    color: #EB5757;
+}
+.title{
+    height: 20px;
+    
+    margin: 10px 0 57px 0;
+}
+.title p{
+ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-input-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-input-box{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    width: 1248px;
+    height: 55px;
+    display: flex;
+    margin-top:12px;
+}
+
+.main-input-box *>{
+    flex: 1;
+    
+}
+
+
+
+.indi-box{
+    height: 100%;
+    border: 1px solid #F2F2F2;
+    flex: 1;
+    display: flex;
+    
+    
+}
+
+.indi-box:not(#indi-box-3){
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    padding: 3px 0 ;
+}
+
+.submit-button{
+    width: 127px;
+    height: 48px;
+    background: #EB5757;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+font-family: 'Mulish', sans-serif;
+ 
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+
+
+
+color: #F2F2F2;
+}
+
+.submit-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#indi-box-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-heading{
+font-family: 'Mulish', sans-serif;
+    
+font-style: normal;
+font-weight: 800;
+font-size: 9px;
+line-height: 11px;
+text-transform: uppercase;
+
+color: #333333;
+
+}
+
+.location-item-container{
+    
+    
+    padding-left: 5%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.location-item{
+    display: flex;
+    margin-top: 40px;
+}
+
+.location-item > p{
+    margin-left: 2px;
+    
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+
+color: #4F4F4F;
+
+}
+
+.drawer{
+    height: 400px;
+}
+
+/* Counter */
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.center{
+    align-items: center;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+.counter-container{
+    
+    padding-left: 37%;
+}
+.counter{
+    text-align: left;
+    margin: 30px 0;
+}
+.counter >*{
+    margin-top: 20px;
+}
+.counter-text{
+    
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+}
+.counter-type{
+    
+font-weight: 700;
+color: #333333;
+}
+
+.counter-range{
+    font-weight: 500;
+    color:#828282
+    
+}
+
+.counter-count >*{
+    margin-right: 10px;
+}
+
+.increment-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+height: 23px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+
+@media only screen and (max-width:1112px){
+    .main-input-box{
+        box-shadow: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #indi-box-3{
+        border: none;
+        border: none;
+    position: absolute;
+    height: fit-content;
+    bottom: 0;
+     width: 50%;
+     margin: auto;
+    }
+
+    .indi-box:not(#indi-box-3){
+        flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 20px;
+    width:80%
+    }
+
+    .counter-container,.location-item-container{
+        padding-left: 15%;
+        margin-top: 63px;
+    }
+
+    .submit-button{
+        margin-bottom: 23px;
+    }
+
+    .drawer{
+        height: 500px;
+    }
+    
+}
+
+
+@media  screen and (max-width:645px) {
+    .heading{
+        padding: 0 10px;
+
+    }
+    .header{
+        flex-direction: column;
+        padding:0 23px;
+    }
+
+    .logo{
+        margin-bottom: 58px;
+    }
+
+    .list-hotel > div{
+        margin-right: 0;
+    }
+
+    .drawer{
+        height: 800px;
+    }
+}
+
+
+
+
+
+
+
+
