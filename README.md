@@ -1,16 +1,16 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Windbnb Project}</h1>
+<h1 align="center">Windbnb Project</h1>
 
 
 
 <div align="center">
   <h3>
-    <a href="https://{https://windbnb-sigma.vercel.app/}">
+    <a href="https://https://windbnb-sigma.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://github.com/Shofiya2003/windbnb}">
+    <a href="https://https://github.com/Shofiya2003/windbnb">
       Solution
     </a>
     <span> | </span>
@@ -87,5 +87,5 @@ $ npm start
 I used Material-UI library of React components to complete the frontend of the project.
 ## Contact
 
-- GitHub [@Shofiya2003](https://{github.com/Shofiya2003})
-- Twitter [@BootwalaShofiya](https://{twitter.com/BootwalaShofiya})
+- GitHub [@Shofiya2003](https://github.com/Shofiya2003)
+- Twitter [@BootwalaShofiya](https://twitter.com/BootwalaShofiya)
