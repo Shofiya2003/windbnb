@@ -87,5 +87,5 @@ $ npm start
 I used Material-UI library of React components to complete the frontend of the project.
 ## Contact
 
-- GitHub [@your-username](https://{github.com/Shofiya2003})
-- Twitter [@your-twitter](https://{twitter.com/BootwalaShofiya})
+- GitHub [@Shofiya2003](https://{github.com/Shofiya2003})
+- Twitter [@BootwalaShofiya](https://{twitter.com/BootwalaShofiya})
