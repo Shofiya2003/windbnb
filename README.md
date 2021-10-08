@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://windbnb-sigma.vercel.app/">
+    <a href="https://windbnb-sigma.vercel.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/Shofiya2003/windbnb">
+    <a href="https://github.com/Shofiya2003/windbnb">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ![screenshot](blob:https://vercel.com/5016eb32-e814-4bbc-918d-a0b93a20baa3)
 
-You can see the demo of the project on https://windbnb-sigma.vercel.app/ . I learnt new React and JavaScript concepts while making this projects. Some of them include using JSON data in React and filtering data.
+You can see the demo of the project on https://windbnb-sigma.vercel.app . I learnt new React and JavaScript concepts while making this projects. Some of them include using JSON data in React and filtering data.
 I had fun building the UI of the project. 
 
 - Where can I see your demo?
